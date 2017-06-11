@@ -1,0 +1,16 @@
+ELCLI=elements-cli
+alice_dir="-datadir=/root/frb/blockchain-demo/demo/data/alice"
+bob_dir="-datadir=/root/frb/blockchain-demo/demo/data/bob"
+charlie_dir="-datadir=/root/frb/blockchain-demo/demo/data/charlie"
+dave_dir="-datadir=/root/frb/blockchain-demo/demo/data/dave"
+fred_dir="-datadir=/root/frb/blockchain-demo/demo/data/fred"
+alice_dae=65584
+bob_dae=65586
+charlie_dae=65588
+dave_dae=65590
+fred_dae=65592
+alice_pid=65829
+bob_pid=65830
+charlie_pid=65831
+dave_pid=65832
+fred_pid=65833

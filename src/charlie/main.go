@@ -28,7 +28,7 @@ type exchangeRateTuple struct {
 const (
 	myActorName      = "charlie"
 	defaultRateFrom  = "AKISKY"
-	defaultRateTo    = "MELON"
+	defaultRateTo    = "MODEL"
 	defaultRPCURL    = "http://127.0.0.1:10020"
 	defaultRPCUser   = "user"
 	defaultRPCPass   = "pass"

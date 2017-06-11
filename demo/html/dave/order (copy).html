@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	<meta name="viewport" content="width=500">
+        <title>Store</title>
+        <script src="./jquery-3.1.1.min.js"></script>
+        <script src="./jquery.qrcode.min.js"></script>
+        <script src="./order.js"></script>
+        <link rel="stylesheet" href="./order.css">
+    </head>
+    <body>
+        <div id="page">
+            <div id="head">
+                <div class="store">IBM&nbsp;PowerAI</div>
+                <div class="office">Inception V3&nbsp;TensorFlow&nbsp;Image Classifier</div>
+            </div>
+            <div id="before">
+                <img src="./images.png">
+                <div id="pinfo">
+                    <table>
+                        <tr class="sep">
+                            <td class="key"><div class="key">Category</div></td>
+                            <td class="val"><div class="pname">House & Pool&nbsp;Image&nbsp;Classifier</div></td>
+                        </tr>
+                        <tr>
+                            <td class="key"><div class="key">Price</div></td>
+                            <td class="val"><div class="passet">MODEL</div><div class="pprice">US $ 2,500</div></td>
+                        </tr>
+                    </table>
+                </div>
+                <button id="order">Order</button>
+            </div>
+            <div id="after">
+                <div id="qrbase">
+                    <div class="qrtext">Scan This QR Code (Click to put into Clipboard!)</div>
+                <input id="uri" type="text">
+                    <div id="qrcode" title="Click to put into Clipboard!"></div>
+                    <div id="addr"></div>
+                    <div class="qrbar"></div>
+                    <div id="name"></div>
+                    <div class="qrval">
+                        <div id="asset"></div><div id="price"></div><div class="unit">US $</div>
+                    </div>
+                </div>
+                <div id="message">Data in clipboard; paste this into the customer interface</div>
+            </div>
+        </div>
+    </body>
+</html>

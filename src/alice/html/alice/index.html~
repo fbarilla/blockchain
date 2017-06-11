@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <script src="./jquery-3.2.0.min.js"></script>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap-theme.min.css">
+    <script src="./alice.js"></script>
+    <link rel="stylesheet" href="./alice.css">
+	<title>Order</title>
+</head>
+
+<body>
+    <div class="container" id="walletbody">
+        <div class="row" id="headerrow">
+          <div class="col-md-12 text-center">
+            <img src="./productlogo.png">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1 text-center" id="titletext">
+            Complete Transaction
+          </div>
+        </div>
+
+        <!-- Address -->
+        <div class="row addressdetail text-center">
+          <div class="col-md-10 col-md-offset-1 text-left">
+            Transaction
+          </div>
+          <div class="col-md-10 col-md-offset-1 text-left">
+            <input type="text" class="" id="addressinput" name="" placeholder="   Enter transaction id here...">
+          </div>
+        </div>
+        <!-- /Address -->
+
+        <!-- Info -->
+        <div id="purchaseinfo">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h4>Purchase Info</h4>
+            </div>
+          </div>
+
+          <div class="row point toppoint">
+            <div class="col-md-3 col-md-offset-1" id="item-title">
+              Product
+            </div>
+            <div class="col-md-7 text-right" id="item-detail">
+              -
+            </div>
+          </div>
+          <div class="row pointseparator">
+          </div>
+          <div class="row point bottompoint">
+            <div class="col-md-3 col-md-offset-1" id="item-pricetitle">
+              Price
+            </div>
+            
+            <div class="col-md-4 text-right" id="item-price">
+              -
+            </div>
+          </div>
+        </div>
+        <!-- /Info -->
+
+      <!-- WALLET -->
+      <div class="row">
+        <div class="col-md-4 text-right">
+          <h4>Account</h4>
+        </div>
+        <div class="col-md-4 text-center">
+          <h4>Balance</h4>
+        </div>
+        <div class="col-md-4 text-left">
+          <h4>Cost (Remainder)</h4>
+        </div>
+      </div>
+
+      <div id="walletpoints">
+      </div>
+      <!-- /WALLET -->
+
+        <!-- MODAL -->
+        <div id="modal-overlay" class="modal text-center">
+          <div class="container modal-content" id="modal-content">
+            <div id="modal-confirm">
+              <div class="col-md-12">
+                <span class="close" id="closeModal">&times;</span>
+                <br>
+                <span><h4 id="dest_address"></h4></span>
+                <hr id="addressline">
+                <p><h1>↑</h1></p>
+                Price: <span id="bpoint" data-name="mc"></span>&nbsp;US $
+                <br>
+                Taxes: <span id="fpoint" data-name="mc"></span>&nbsp;US $
+                <br>
+                Total cost: <span id="tpoint" data-name="mc"></span>&nbsp;US $
+                <br>
+                <p><h4>Is this OK?</h4></p>
+              </div>
+              <br>
+              <div class="col-md-4 col-md-offset-1">
+                <button class="btn cancel" id="cbtn">Cancel</button>
+              </div>
+              <div class="col-md-4 col-md-offset-2">
+                <button class="btn ok" id="obtn">Yes</button>
+              </div>
+            </div>
+            <div id="modal-thank">Thank you! Transaction is processing...</div>
+          </div>
+        </div>
+        <!-- /MODAL -->
+    </div>
+</body>
+
+</html>
