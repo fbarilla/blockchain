@@ -69,15 +69,17 @@ echo "- generating initial blocks to reach maturity"
 ## generate assets
 fred generate 100 >/dev/null
 
-echo -n -e "- generating DEVELOPMENT asset"
-AIRSKY=$(fred issueasset 1000000 5000 | jq -r ".asset")
-echo -n -e ": $AIRSKY\n- generating MARKETING asset"
+# FRB echo -n -e "- generating DEVELOPMENT asset"
+DATA=$(fred issueasset 1000000 5000 | jq -r ".asset")
+# FRB echo -n -e ": $DATA\n- generating MARKETING asset"
 MODEL=$(fred issueasset 2000000 5000 | jq -r ".asset")
-echo -n -e ": $MODEL\n- generating MONECRE asset"
+# FRB echo -n -e ": $MODEL\n- generating MONECRE asset"
 # FRB MONECRE=$(fred issueasset 2000000 5000 | jq -r ".asset")
 # FRB echo ": $MONECRE"
 
-echo -n -e "final setup - starting daemons"
+sleep 1
+
+# FRB echo -n -e "final setup - starting daemons"
 
 fred stop
 sleep 1
@@ -85,7 +87,7 @@ sleep 1
 ## setup nodes phase 2
 for i in alice bob charlie dave fred; do
     cat <<EOF >> ${DEMOD}/data/$i/elements.conf
-assetdir=$AIRSKY:AIRSKY
+assetdir=$DATA:DATA
 assetdir=$MODEL:MODEL
 # FRB assetdir=$MONECRE:MONECRE
 EOF
@@ -121,8 +123,8 @@ fred getwalletinfo
 
 ## preset asset
 echo -n -e "DEVELOPMENT"
-# fred sendtoaddress $(alice validateaddress $(alice getnewaddress) | jq -r ".unconfidential") 10000 "" "" false "AIRSKY" >/dev/null
-fred sendtoaddress $(alice getnewaddress) 10000 "" "" false "AIRSKY" >/dev/null
+# fred sendtoaddress $(alice validateaddress $(alice getnewaddress) | jq -r ".unconfidential") 10000 "" "" false "DATA" >/dev/null
+fred sendtoaddress $(alice getnewaddress) 10000 "" "" false "DATA" >/dev/null
 sleep 1
 echo -n -e "\nMARKETING"
 # fred sendtoaddress $(alice validateaddress $(alice getnewaddress) | jq -r ".unconfidential") 5000 "" "" false "MODEL" >/dev/null
@@ -134,13 +136,13 @@ sleep 1
 echo -n -e "\n"
 fred generate 1 >/dev/null
 sleep 1 # wait for sync
-echo "Alice wallet:"
+# FRB echo "Alice wallet:"
 alice getwalletinfo
 
-echo -n -e "Sending to Charlie [               ]\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b"
+# FRB echo -n -e "Sending to Charlie [               ]\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b"
 for i in 100 200 300 400 500 1000 2000 5000 10000; do
-# FRB  for j in AIRSKY MODEL MONECRE; do
-  for j in AIRSKY MODEL; do
+# FRB  for j in DATA MODEL MONECRE; do
+  for j in DATA MODEL; do
     # fred sendtoaddress $(charlie validateaddress $(charlie getnewaddress) | jq -r ".unconfidential") $i "" "" false "$j" >/dev/null
     fred sendtoaddress $(charlie getnewaddress) $i "" "" false "$j" >/dev/null
     echo -n -e "."
@@ -149,20 +151,29 @@ done
 echo ""
 fred generate 1
 sleep 1 # wait for sync
-echo "Charlie wallet:"
+# FRB echo "Charlie wallet:"
 charlie getwalletinfo
 
 cd ${DEMOD}
 for i in alice bob charlie dave fred; do
-    ./$i &
+    ./$i &> out &
     echo "${i}_pid=$!" >> ../demo.tmp
 done
 
 cd "$(dirname "${BASH_SOURCE[0]}")"
 sleep 2
 
+echo " "
 echo "Setup complete. Use these URLs to test it out:"
-echo "Alice -> http://127.0.0.1:8000/"
-echo "Dave  -> http://127.0.0.1:8030/order.html"
-echo "Dave  -> http://127.0.0.1:8030/list.html"
+echo " "
+echo " "
+echo "http://127.0.0.1:8000/"
+echo " "
+echo "http://127.0.0.1:8030/order.html"
+echo " "
+echo "http://127.0.0.1:8030/list.html"
+echo " "
+echo " "
 echo "When finished, run stop_demo.sh"
+echo " "
+echo " "

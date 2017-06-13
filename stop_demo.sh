@@ -22,7 +22,7 @@ if [ -e ./demo.tmp ]; then
 
     dirs=( $dave_dir $alice_dir $charlie_dir $fred_dir $bob_dir )
     for dir in "${dirs[@]}"; do
-        echo "$ELCLI $dir stop"
+# FRB        echo "$ELCLI $dir stop"
         $ELCLI $dir stop
     done
     sleep 3

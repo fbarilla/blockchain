@@ -16,16 +16,16 @@
 		"rpcpass": "pass",
 		"laddr": ":8020",
 		"fixrate": {
-			"AIRSKY":{
+			"DATA":{
 				"MODEL":{"rate":1.0,"min":100,"max":200000,"unit":20,"fee":206},
 				"MONECRE":{"rate":1.0,"min":100,"max":200000,"unit":20,"fee":206}
 			},
 			"MODEL":{
-				"AIRSKY":{"rate":2.0,"min":100,"max":100000,"unit":10,"fee":206},
+				"DATA":{"rate":2.0,"min":100,"max":100000,"unit":10,"fee":206},
 				"MONECRE":{"rate":1.0,"min":100,"max":100000,"unit":10,"fee":206}
 			},
 			"MONECRE":{
-				"AIRSKY":{"rate":2.0,"min":100,"max":100000,"unit":10,"fee":206},
+				"DATA":{"rate":2.0,"min":100,"max":100000,"unit":10,"fee":206},
 				"MODEL":{"rate":1.0,"min":100,"max":100000,"unit":10,"fee":206}
 			}
 		}
