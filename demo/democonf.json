@@ -3,7 +3,7 @@
 		"rpcurl": "http://127.0.0.1:10000/",
 		"rpcuser": "user",
 		"rpcpass": "pass",
-		"laddr": ":8000"
+		"laddr": ":8010"
 	},
 	"bob": {
 		"rpcurl": "http://127.0.0.1:10010/",

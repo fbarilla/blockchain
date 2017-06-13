@@ -1,5 +1,5 @@
-2017/06/13-18:51:59.822301 3fffacd3b440 Recovering log #3
-2017/06/13-18:51:59.822380 3fffacd3b440 Level-0 table #5: started
-2017/06/13-18:51:59.886044 3fffacd3b440 Level-0 table #5: 8759 bytes OK
-2017/06/13-18:52:00.080201 3fffacd3b440 Delete type=3 #2
-2017/06/13-18:52:00.080232 3fffacd3b440 Delete type=0 #3
+2017/06/13-19:10:07.143900 3fff7a61b440 Recovering log #3
+2017/06/13-19:10:07.143975 3fff7a61b440 Level-0 table #5: started
+2017/06/13-19:10:07.199742 3fff7a61b440 Level-0 table #5: 8759 bytes OK
+2017/06/13-19:10:07.394747 3fff7a61b440 Delete type=3 #2
+2017/06/13-19:10:07.394773 3fff7a61b440 Delete type=0 #3

@@ -1,4 +1,4 @@
-2017-06-13 18:51:59 
+2017-06-13 19:10:06 
 
 
 
@@ -18,205 +18,195 @@
 
 
 
-2017-06-13 18:51:59 Bitcoin version v0.13.1.0-1240002
-2017-06-13 18:51:59 InitParameterInteraction: parameter interaction: -connect set -> setting -dnsseed=0
-2017-06-13 18:51:59 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
-2017-06-13 18:51:59 Default data directory /root/.bitcoin
-2017-06-13 18:51:59 Using data directory /root/frb/blockchain-demo/demo/data/dave/elementsregtest
-2017-06-13 18:51:59 Using config file /root/frb/blockchain-demo/demo/data/dave/elements.conf
-2017-06-13 18:51:59 Using at most 125 connections (1024 file descriptors available)
-2017-06-13 18:51:59 Using 16 threads for script verification
-2017-06-13 18:51:59 scheduler thread start
-2017-06-13 18:51:59 HTTP: creating work queue of depth 16
-2017-06-13 18:51:59 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
-2017-06-13 18:51:59 HTTP: starting 4 worker threads
-2017-06-13 18:51:59 Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
-2017-06-13 18:51:59 Using wallet wallet.dat
-2017-06-13 18:51:59 init message: Verifying wallet...
-2017-06-13 18:51:59 CDBEnv::Open: LogDir=/root/frb/blockchain-demo/demo/data/dave/elementsregtest/database ErrorFile=/root/frb/blockchain-demo/demo/data/dave/elementsregtest/db.log
-2017-06-13 18:51:59 Bound to [::]:10031
-2017-06-13 18:51:59 Bound to 0.0.0.0:10031
-2017-06-13 18:51:59 Cache configuration:
-2017-06-13 18:51:59 * Using 37.5MiB for block index database
-2017-06-13 18:51:59 * Using 8.0MiB for chain state database
-2017-06-13 18:51:59 * Using 254.5MiB for in-memory UTXO set
-2017-06-13 18:51:59 init message: Loading block index...
-2017-06-13 18:51:59 Opening LevelDB in /root/frb/blockchain-demo/demo/data/dave/elementsregtest/blocks/index
-2017-06-13 18:51:59 Opened LevelDB successfully
-2017-06-13 18:51:59 Using obfuscation key for /root/frb/blockchain-demo/demo/data/dave/elementsregtest/blocks/index: 0000000000000000
-2017-06-13 18:51:59 Opening LevelDB in /root/frb/blockchain-demo/demo/data/dave/elementsregtest/chainstate
-2017-06-13 18:52:00 Opened LevelDB successfully
-2017-06-13 18:52:00 Wrote new obfuscate key for /root/frb/blockchain-demo/demo/data/dave/elementsregtest/chainstate: c39cde6945ca395c
-2017-06-13 18:52:00 Using obfuscation key for /root/frb/blockchain-demo/demo/data/dave/elementsregtest/chainstate: c39cde6945ca395c
-2017-06-13 18:52:00 LoadBlockIndexDB: last block file = 0
-2017-06-13 18:52:00 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
-2017-06-13 18:52:00 Checking all blk files are present...
-2017-06-13 18:52:00 LoadBlockIndexDB: transaction index disabled
-2017-06-13 18:52:00 Initializing databases...
-2017-06-13 18:52:00 Pre-allocating up to position 0x1000000 in blk00000.dat
-2017-06-13 18:52:00 init message: Verifying blocks...
-2017-06-13 18:52:00  block index             723ms
-2017-06-13 18:52:00 init message: Loading wallet...
-2017-06-13 18:52:00 nFileVersion = 130100
-2017-06-13 18:52:00 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
-2017-06-13 18:52:00 Performing wallet upgrade to 60000
-2017-06-13 18:52:01 keypool added key 1, size=1
-2017-06-13 18:52:01 keypool added key 2, size=2
-2017-06-13 18:52:01 keypool added key 3, size=3
-2017-06-13 18:52:02 keypool added key 4, size=4
-2017-06-13 18:52:02 keypool added key 5, size=5
-2017-06-13 18:52:02 keypool added key 6, size=6
-2017-06-13 18:52:02 keypool added key 7, size=7
-2017-06-13 18:52:02 keypool added key 8, size=8
-2017-06-13 18:52:03 keypool added key 9, size=9
-2017-06-13 18:52:03 keypool added key 10, size=10
-2017-06-13 18:52:03 keypool added key 11, size=11
-2017-06-13 18:52:03 keypool reserve 1
-2017-06-13 18:52:03 keypool keep 1
-2017-06-13 18:52:04  wallet                 3797ms
-2017-06-13 18:52:04 UpdateTip: new best=92a066f2390d9570f06072767fa01612147aa072cd8cdb863d677035f775abf2 height=0 version=0x00000001 log2_work=0 tx=1 date='2011-02-02 23:16:42' progress=1.000000 cache=0.0MiB(1tx)
-2017-06-13 18:52:04 AddToWallet 389ced8ee87ebead8c4c3af49dc86be7e8f543ae3ca6956e319dee180e3a73f4  new
-2017-06-13 18:52:04 AddToWallet 389ced8ee87ebead8c4c3af49dc86be7e8f543ae3ca6956e319dee180e3a73f4  
-2017-06-13 18:52:04 mapBlockIndex.size() = 1
-2017-06-13 18:52:04 nBestHeight = 0
-2017-06-13 18:52:04 setKeyPool.size() = 10
-2017-06-13 18:52:04 mapWallet.size() = 1
-2017-06-13 18:52:04 mapAddressBook.size() = 1
-2017-06-13 18:52:04 init message: Loading addresses...
-2017-06-13 18:52:04 torcontrol thread start
-2017-06-13 18:52:04 ERROR: Read: Failed to open file /root/frb/blockchain-demo/demo/data/dave/elementsregtest/peers.dat
-2017-06-13 18:52:04 Invalid or missing peers.dat; recreating
-2017-06-13 18:52:04 init message: Loading banlist...
-2017-06-13 18:52:04 ERROR: Read: Failed to open file /root/frb/blockchain-demo/demo/data/dave/elementsregtest/banlist.dat
-2017-06-13 18:52:04 Invalid or missing banlist.dat; recreating
-2017-06-13 18:52:04 init message: Starting network threads...
-2017-06-13 18:52:04 DNS seeding disabled
-2017-06-13 18:52:04 net thread start
-2017-06-13 18:52:04 init message: Awaiting bitcoind RPC warmup
-2017-06-13 18:52:04 init message: Done loading
-2017-06-13 18:52:04 addcon thread start
-2017-06-13 18:52:04 opencon thread start
-2017-06-13 18:52:04 msghand thread start
-2017-06-13 18:52:04 receive version message: /Satoshi:0.13.1/: version 70014, blocks=100, us=0.0.0.0:0, peer=1
-2017-06-13 18:52:04 receive version message: /Satoshi:0.13.1/: version 70014, blocks=0, us=0.0.0.0:0, peer=2
-2017-06-13 18:52:04 Pre-allocating up to position 0x100000 in rev00000.dat
-2017-06-13 18:52:04 UpdateTip: new best=e7b7d1dbddafb8a3611dbe2acaca4a572fbd317c361bb232f548ff4d181cfb8d height=1 version=0x20000000 log2_work=1 tx=2 date='2017-06-13 18:51:55' progress=1.000000 cache=0.0MiB(2tx)
-2017-06-13 18:52:04 UpdateTip: new best=01aa5ef996af8f4846a14acfd379eb7dc52c81efa4065c450cdf81c254b44270 height=2 version=0x20000000 log2_work=1.5849625 tx=3 date='2017-06-13 18:51:56' progress=1.000000 cache=0.0MiB(3tx)
-2017-06-13 18:52:04 UpdateTip: new best=89974c39e34dae3bd573b40e166231221c53a416862ca86c69a8d6c55063172c height=3 version=0x20000000 log2_work=2 tx=4 date='2017-06-13 18:51:56' progress=1.000000 cache=0.0MiB(4tx)
-2017-06-13 18:52:04 UpdateTip: new best=92c065c8b2bc3ec9e8de6f3c19b52dbbbaca90c553db715ae945d5f4698e6de6 height=4 version=0x20000000 log2_work=2.3219281 tx=5 date='2017-06-13 18:51:57' progress=1.000000 cache=0.0MiB(5tx)
-2017-06-13 18:52:04 UpdateTip: new best=eebf9f926a7641fb06d2b7573299a9117cd30799c08147a29c8ec971b1092502 height=5 version=0x20000000 log2_work=2.5849625 tx=6 date='2017-06-13 18:51:57' progress=1.000000 cache=0.0MiB(6tx)
-2017-06-13 18:52:04 UpdateTip: new best=4e3e4cd7d1c09a0a008d27e49d3c502a9fe7f7ba43ab079533477a01e712cb6a height=6 version=0x20000000 log2_work=2.8073549 tx=7 date='2017-06-13 18:51:57' progress=1.000000 cache=0.0MiB(7tx)
-2017-06-13 18:52:04 UpdateTip: new best=c27c9baffdfd1ea0fe2bd79640c56df0d6864644b77073848c0c67bbaa3d43d4 height=7 version=0x20000000 log2_work=3 tx=8 date='2017-06-13 18:51:57' progress=1.000000 cache=0.0MiB(8tx)
-2017-06-13 18:52:04 UpdateTip: new best=5a755a6fa85d7e2f0b60f3864ed4cdae7dcc6d8c0fa05d44b50780a61dfce37d height=8 version=0x20000000 log2_work=3.169925 tx=9 date='2017-06-13 18:51:58' progress=1.000000 cache=0.0MiB(9tx)
-2017-06-13 18:52:04 UpdateTip: new best=573fcea6d013a8d09412f3733f94ec2166229dcadd0e605a00e9dd69fb50e288 height=9 version=0x20000000 log2_work=3.3219281 tx=10 date='2017-06-13 18:51:58' progress=1.000000 cache=0.0MiB(10tx)
-2017-06-13 18:52:04 UpdateTip: new best=817a88bc63824e2a2bf766a15f61027096145275d785fa071d69efcd5bd0d752 height=10 version=0x20000000 log2_work=3.4594316 tx=11 date='2017-06-13 18:51:58' progress=1.000000 cache=0.0MiB(11tx)
-2017-06-13 18:52:04 UpdateTip: new best=b5300a37832b35a84795e75e71fc9a22a52d9dcbb5d66e7152da1401e22c3eab height=11 version=0x20000000 log2_work=3.5849625 tx=12 date='2017-06-13 18:51:58' progress=1.000000 cache=0.0MiB(12tx)
-2017-06-13 18:52:04 UpdateTip: new best=bd693bd9fc6a11e0f7067497d6b5ce45a8fb3e3b9a2129e249ebec49b86885e9 height=12 version=0x20000000 log2_work=3.7004397 tx=13 date='2017-06-13 18:51:58' progress=1.000000 cache=0.0MiB(13tx)
-2017-06-13 18:52:04 UpdateTip: new best=1b67dcb9847caa76317262d1bc2ee89fc9f9f84c22628c862ee9f285dc11a0cf height=13 version=0x20000000 log2_work=3.8073549 tx=14 date='2017-06-13 18:51:58' progress=1.000000 cache=0.0MiB(14tx)
-2017-06-13 18:52:04 UpdateTip: new best=ae4600f16be938703092a09e41ab2e5b82d3bfec6a38ae31b5458257c6095cb0 height=14 version=0x20000000 log2_work=3.9068906 tx=15 date='2017-06-13 18:51:59' progress=1.000000 cache=0.0MiB(15tx)
-2017-06-13 18:52:04 UpdateTip: new best=17f2a7d3ab524a3e79ce3a7cfcfdccc0907378695d781b1ddee0e7890ec70399 height=15 version=0x20000000 log2_work=4 tx=16 date='2017-06-13 18:51:59' progress=1.000000 cache=0.0MiB(16tx)
-2017-06-13 18:52:04 UpdateTip: new best=187ed4e5d7572acba05efae2fffaac42f84433ad38ca71ef1b0751ac7ab5f37a height=16 version=0x20000000 log2_work=4.0874628 tx=17 date='2017-06-13 18:51:59' progress=1.000000 cache=0.0MiB(17tx)
-2017-06-13 18:52:04 UpdateTip: new best=f1b9d4978f5d21b5823ddacc16be11cd4d5917451f93172c7f2778b8f8caa5e0 height=17 version=0x20000000 log2_work=4.169925 tx=18 date='2017-06-13 18:51:59' progress=1.000000 cache=0.0MiB(18tx)
-2017-06-13 18:52:04 UpdateTip: new best=7f37d5c84112d9e54e8022c8bd4d5630a9933d0ee00d89fc48a6a3e775e4c4a1 height=18 version=0x20000000 log2_work=4.2479275 tx=19 date='2017-06-13 18:51:59' progress=1.000000 cache=0.0MiB(19tx)
-2017-06-13 18:52:04 UpdateTip: new best=385856d0858edafbae609ce9e41fdd19b54d212b00e722f167a969e9a22817c9 height=19 version=0x20000000 log2_work=4.3219281 tx=20 date='2017-06-13 18:51:59' progress=1.000000 cache=0.0MiB(20tx)
-2017-06-13 18:52:04 UpdateTip: new best=06b685ac49a015f1443c1bcd12cbbb9dc85eb2c545ae42e6b8040c0051c47975 height=20 version=0x20000000 log2_work=4.3923174 tx=21 date='2017-06-13 18:52:00' progress=1.000000 cache=0.0MiB(21tx)
-2017-06-13 18:52:04 UpdateTip: new best=3dd4ed10e29c22b1b799bc5531c903bdffbf4a819da521da45a862d3a649d463 height=21 version=0x20000000 log2_work=4.4594316 tx=22 date='2017-06-13 18:52:00' progress=1.000000 cache=0.0MiB(22tx)
-2017-06-13 18:52:04 UpdateTip: new best=0397d796f98e948d3b83bb4b51b5d29284e73c1425cf504aa915b0128e44ec31 height=22 version=0x20000000 log2_work=4.523562 tx=23 date='2017-06-13 18:52:00' progress=1.000000 cache=0.0MiB(23tx)
-2017-06-13 18:52:04 UpdateTip: new best=c55e17aa12886b15cc01196658107aaa4210f0b9b2cd1252506b24464ed594a0 height=23 version=0x20000000 log2_work=4.5849625 tx=24 date='2017-06-13 18:52:00' progress=1.000000 cache=0.0MiB(24tx)
-2017-06-13 18:52:04 UpdateTip: new best=3caf9cf296ec1fe188a915297675548d5971b7a1da11b9b939ba7c0b14b9f88f height=24 version=0x20000000 log2_work=4.6438562 tx=25 date='2017-06-13 18:52:00' progress=1.000000 cache=0.0MiB(25tx)
-2017-06-13 18:52:04 UpdateTip: new best=b60d26eb8e81a3641afa3e26c3d755f6f257e4056d3ba30dfa5a7a3501f25c8a height=25 version=0x20000000 log2_work=4.7004397 tx=26 date='2017-06-13 18:52:00' progress=1.000000 cache=0.0MiB(26tx)
-2017-06-13 18:52:04 UpdateTip: new best=87afeed7eb1f4af81ea82fffabc3bec2c5ceede401abab69ba0d748ce8035eb5 height=26 version=0x20000000 log2_work=4.7548875 tx=27 date='2017-06-13 18:52:01' progress=1.000000 cache=0.0MiB(27tx)
-2017-06-13 18:52:04 UpdateTip: new best=2f749be8706c981728ce67c598c15791287a038f56273d8956b96aba6f42ab25 height=27 version=0x20000000 log2_work=4.8073549 tx=28 date='2017-06-13 18:52:01' progress=1.000000 cache=0.0MiB(28tx)
-2017-06-13 18:52:04 UpdateTip: new best=4994b95ad23fa9b26db0427db0d37a9be36da995c72f0cb642e555020d37afd8 height=28 version=0x20000000 log2_work=4.857981 tx=29 date='2017-06-13 18:52:01' progress=1.000000 cache=0.0MiB(29tx)
-2017-06-13 18:52:04 UpdateTip: new best=7b6a824dd33527747b2e67988e604de00066bf8af91f7165df1ff54f48ba8f0a height=29 version=0x20000000 log2_work=4.9068906 tx=30 date='2017-06-13 18:52:01' progress=1.000000 cache=0.0MiB(30tx)
-2017-06-13 18:52:04 UpdateTip: new best=540f4ffd7c964fb9d540cc149f19b125d920b1b399bd249c81bef209ce0216a6 height=30 version=0x20000000 log2_work=4.9541963 tx=31 date='2017-06-13 18:52:01' progress=1.000000 cache=0.0MiB(31tx)
-2017-06-13 18:52:04 UpdateTip: new best=e88b62097d365542553d0f753b9a588061272c4b5835e4ec22be3eaac8101549 height=31 version=0x20000000 log2_work=5 tx=32 date='2017-06-13 18:52:01' progress=1.000000 cache=0.0MiB(32tx)
-2017-06-13 18:52:04 UpdateTip: new best=173d1c683b42555338b7b4f3be5e1bbfd538c3f5ae2bf6db74c395247009f51f height=32 version=0x20000000 log2_work=5.0443941 tx=33 date='2017-06-13 18:52:02' progress=1.000000 cache=0.0MiB(33tx)
-2017-06-13 18:52:04 UpdateTip: new best=30fad620ed724fcff81209d8224e3a359d7cd4b52f620ede80840240b3a82ffe height=33 version=0x20000000 log2_work=5.0874628 tx=34 date='2017-06-13 18:52:02' progress=1.000000 cache=0.0MiB(34tx)
-2017-06-13 18:52:04 UpdateTip: new best=06532787ac0433591d1d9d1521ddd39f321b50362f9f43d81804b9f226e70d12 height=34 version=0x20000000 log2_work=5.129283 tx=35 date='2017-06-13 18:52:02' progress=1.000000 cache=0.0MiB(35tx)
-2017-06-13 18:52:04 UpdateTip: new best=929b097a1e3046cc325be9beb07f45f7324d91ec8bbcb717d9d0a504716baafe height=35 version=0x20000000 log2_work=5.169925 tx=36 date='2017-06-13 18:52:02' progress=1.000000 cache=0.0MiB(36tx)
-2017-06-13 18:52:04 UpdateTip: new best=7ebdbed161f886da50b26dca87f331ce2bc2cb4b04a58035c57629060175934c height=36 version=0x20000000 log2_work=5.2094534 tx=37 date='2017-06-13 18:52:02' progress=1.000000 cache=0.0MiB(37tx)
-2017-06-13 18:52:04 UpdateTip: new best=6f9700a0482cdda048ed08b023990d882da10a23edb5c15d72f978d40f684312 height=37 version=0x20000000 log2_work=5.2479275 tx=38 date='2017-06-13 18:52:02' progress=1.000000 cache=0.0MiB(38tx)
-2017-06-13 18:52:04 UpdateTip: new best=1aa1194c39023c0e5fb9fc8e05f6f3043f3735a369148fe25d3cdee416e8374b height=38 version=0x20000000 log2_work=5.2854022 tx=39 date='2017-06-13 18:52:03' progress=1.000000 cache=0.0MiB(39tx)
-2017-06-13 18:52:04 UpdateTip: new best=406cb5524773e754e8ec39c5dba3258318668550bff1e1519f0ee2a39fe462aa height=39 version=0x20000000 log2_work=5.3219281 tx=40 date='2017-06-13 18:52:03' progress=1.000000 cache=0.0MiB(40tx)
-2017-06-13 18:52:04 UpdateTip: new best=665e4246408da334f272738353880dff93ad079291ed017a8eb216ef3bebd008 height=40 version=0x20000000 log2_work=5.357552 tx=41 date='2017-06-13 18:52:03' progress=1.000000 cache=0.0MiB(41tx)
-2017-06-13 18:52:04 UpdateTip: new best=670ff32423737e0ccf36056ab757276b213c91d284380fe937937f16d09b9f63 height=41 version=0x20000000 log2_work=5.3923174 tx=42 date='2017-06-13 18:52:03' progress=1.000000 cache=0.0MiB(42tx)
-2017-06-13 18:52:04 UpdateTip: new best=8717340b0c606a6fba67c18554941ec0eface2e14ab516c9138f80b1a5d32cbb height=42 version=0x20000000 log2_work=5.4262648 tx=43 date='2017-06-13 18:52:03' progress=1.000000 cache=0.0MiB(43tx)
-2017-06-13 18:52:04 UpdateTip: new best=da5dafbd4eacaa7ddee4b362634bcfb770c26a30721d8fb532e1ac0d0460e268 height=43 version=0x20000000 log2_work=5.4594316 tx=44 date='2017-06-13 18:52:03' progress=1.000000 cache=0.0MiB(44tx)
-2017-06-13 18:52:04 UpdateTip: new best=10d8685cae6e38c6be1d1ad0d9c3a6037870b9e474c06b9f3ef9430e08e943c5 height=44 version=0x20000000 log2_work=5.4918531 tx=45 date='2017-06-13 18:52:04' progress=1.000000 cache=0.0MiB(45tx)
-2017-06-13 18:52:04 UpdateTip: new best=9472d16585108cb2cfb91ce6f21e6ca21e6347c21226096c3584f779bc8f65b8 height=45 version=0x20000000 log2_work=5.523562 tx=46 date='2017-06-13 18:52:04' progress=1.000000 cache=0.0MiB(46tx)
-2017-06-13 18:52:04 UpdateTip: new best=e1ae230315b5551e5fcefa179fd022d504b3461c3235ddc2e0a0d06786431660 height=46 version=0x20000000 log2_work=5.5545889 tx=47 date='2017-06-13 18:52:04' progress=1.000000 cache=0.0MiB(47tx)
-2017-06-13 18:52:04 UpdateTip: new best=5504c00d781fe4288a8b19c68d7888a237a85c2ef86ce1c2ad59d4bb9b6e8175 height=47 version=0x20000000 log2_work=5.5849625 tx=48 date='2017-06-13 18:52:04' progress=1.000000 cache=0.0MiB(48tx)
-2017-06-13 18:52:04 UpdateTip: new best=bc0e628bc2d44be93619f60399029f6c5862ab25cf132b707ddd32ca34fda1ed height=48 version=0x20000000 log2_work=5.6147098 tx=49 date='2017-06-13 18:52:04' progress=1.000000 cache=0.0MiB(49tx)
-2017-06-13 18:52:04 UpdateTip: new best=bf4be803a31ebee74fbdcd4541e9297c41cba342cab8f412c6e4f298fdff37ec height=49 version=0x20000000 log2_work=5.6438562 tx=50 date='2017-06-13 18:52:04' progress=1.000000 cache=0.0MiB(50tx)
-2017-06-13 18:52:04 UpdateTip: new best=49b99f73c1c855ed201666f0506c3fa17607ffb4f570fecdef2f2d07789bd212 height=50 version=0x20000000 log2_work=5.6724253 tx=51 date='2017-06-13 18:52:05' progress=1.000000 cache=0.0MiB(51tx)
-2017-06-13 18:52:04 UpdateTip: new best=987e361cfeeb50c8059bb6013bb3d09d3acd4877197ffbc1425ea5eeba89601c height=51 version=0x20000000 log2_work=5.7004397 tx=52 date='2017-06-13 18:52:05' progress=1.000000 cache=0.0MiB(52tx)
-2017-06-13 18:52:04 UpdateTip: new best=f5d486623763750b9e1c0e28ac8dd0bebd347dcfe7bd3cfcd864a964fd58368e height=52 version=0x20000000 log2_work=5.7279205 tx=53 date='2017-06-13 18:52:05' progress=1.000000 cache=0.0MiB(53tx)
-2017-06-13 18:52:04 UpdateTip: new best=6bfc82ab72b89b065729bafc96791e15bf34abe383c28083becc22900447b416 height=53 version=0x20000000 log2_work=5.7548875 tx=54 date='2017-06-13 18:52:05' progress=1.000000 cache=0.0MiB(54tx)
-2017-06-13 18:52:04 UpdateTip: new best=b068f03dbeedfb0cb845060304dcb8d2724598e77cb714340652853bf5ec96a5 height=54 version=0x20000000 log2_work=5.7813597 tx=55 date='2017-06-13 18:52:05' progress=1.000000 cache=0.0MiB(55tx)
-2017-06-13 18:52:04 UpdateTip: new best=6bb1ac1467f2df85634a430f98ecac52befcbf5929cb1aa70a2c726c3099c15a height=55 version=0x20000000 log2_work=5.8073549 tx=56 date='2017-06-13 18:52:05' progress=1.000000 cache=0.0MiB(56tx)
-2017-06-13 18:52:04 UpdateTip: new best=fc5c423db28bd9c70d829035b5529b30d9b50c237a6a1634db817b042018e175 height=56 version=0x20000000 log2_work=5.83289 tx=57 date='2017-06-13 18:52:06' progress=1.000000 cache=0.0MiB(57tx)
-2017-06-13 18:52:04 UpdateTip: new best=fce957f2a18f3bda9496435279dbee495eb0184667273cea46de836f6e85c2dc height=57 version=0x20000000 log2_work=5.857981 tx=58 date='2017-06-13 18:52:06' progress=1.000000 cache=0.0MiB(58tx)
-2017-06-13 18:52:04 UpdateTip: new best=351a0c405e7242500f7464e45256e72045eee7bac89c12302b0b253749f134d8 height=58 version=0x20000000 log2_work=5.882643 tx=59 date='2017-06-13 18:52:06' progress=1.000000 cache=0.0MiB(59tx)
-2017-06-13 18:52:04 UpdateTip: new best=6738a11d2cb32ce0d50179f20c9b4c507f635f3c941b68235b63b04bf46b735b height=59 version=0x20000000 log2_work=5.9068906 tx=60 date='2017-06-13 18:52:06' progress=1.000000 cache=0.0MiB(60tx)
-2017-06-13 18:52:04 UpdateTip: new best=18e1f6f97b00b58bad6dc40862c6fc4ec1cb4ecbb9a5f6b21d44246cb4e1d53f height=60 version=0x20000000 log2_work=5.9307373 tx=61 date='2017-06-13 18:52:06' progress=1.000000 cache=0.0MiB(61tx)
-2017-06-13 18:52:04 UpdateTip: new best=92fc095db29db4c56b097da796cc6b7caa4db18d2a15c3209d035031b99713ae height=61 version=0x20000000 log2_work=5.9541963 tx=62 date='2017-06-13 18:52:06' progress=1.000000 cache=0.0MiB(62tx)
-2017-06-13 18:52:04 UpdateTip: new best=22e93cdc58604890a8ab87069377a1266b0ec3faa2a4d2de5f0cfbb2412d4eb5 height=62 version=0x20000000 log2_work=5.9772799 tx=63 date='2017-06-13 18:52:07' progress=1.000000 cache=0.0MiB(63tx)
-2017-06-13 18:52:04 UpdateTip: new best=c753d6a64145c67a3188d2d32e1322a920d2704d94db0434adb4a1de6d2383ad height=63 version=0x20000000 log2_work=6 tx=64 date='2017-06-13 18:52:07' progress=1.000000 cache=0.0MiB(64tx)
-2017-06-13 18:52:04 UpdateTip: new best=e58de3f39ca9a0663382131b8d1800548f2278cea0ebd29e0b265ec8dcd6c4df height=64 version=0x20000000 log2_work=6.0223678 tx=65 date='2017-06-13 18:52:07' progress=1.000000 cache=0.0MiB(65tx)
-2017-06-13 18:52:04 UpdateTip: new best=79de9ec4ca262d1ba7fc08b303226cd4d5b9a6b9922c6a6b05453cd7b7c92229 height=65 version=0x20000000 log2_work=6.0443941 tx=66 date='2017-06-13 18:52:07' progress=1.000000 cache=0.0MiB(66tx)
-2017-06-13 18:52:04 UpdateTip: new best=8230c7740e2b4a1b0007922f365d4659af1acb04166c115fb2388fcdd02634ed height=66 version=0x20000000 log2_work=6.0660892 tx=67 date='2017-06-13 18:52:07' progress=1.000000 cache=0.0MiB(67tx)
-2017-06-13 18:52:04 UpdateTip: new best=01b8789ee21af471ecda62019ab77c8e3eb4d05a31685819861adba5de57b026 height=67 version=0x20000000 log2_work=6.0874628 tx=68 date='2017-06-13 18:52:07' progress=1.000000 cache=0.0MiB(68tx)
-2017-06-13 18:52:04 UpdateTip: new best=bb97ae3d954856a9806294b21772cae37a27e2feaea368dcf9ee5e40e90893db height=68 version=0x20000000 log2_work=6.1085245 tx=69 date='2017-06-13 18:52:08' progress=1.000000 cache=0.0MiB(69tx)
-2017-06-13 18:52:04 UpdateTip: new best=262d465b0b810fb1a9a0f869cc8ab5e4b42eecd3377fa74513004e294feaeb3a height=69 version=0x20000000 log2_work=6.129283 tx=70 date='2017-06-13 18:52:08' progress=1.000000 cache=0.0MiB(70tx)
-2017-06-13 18:52:04 UpdateTip: new best=a511265e0dd7435eb0b0159d32086e268243276740e013d3a7bf22dc2d8965f5 height=70 version=0x20000000 log2_work=6.1497471 tx=71 date='2017-06-13 18:52:08' progress=1.000000 cache=0.0MiB(71tx)
-2017-06-13 18:52:04 UpdateTip: new best=7bf9c2afe7e61d271f0919c5a3c135c93ec91bcfbae08dfd18af85b76ef351d1 height=71 version=0x20000000 log2_work=6.169925 tx=72 date='2017-06-13 18:52:08' progress=1.000000 cache=0.0MiB(72tx)
-2017-06-13 18:52:04 UpdateTip: new best=2cef18058bf5baf39e550972b6dc1f657d50f57620fc73adae47eb54f92c518c height=72 version=0x20000000 log2_work=6.1898246 tx=73 date='2017-06-13 18:52:08' progress=1.000000 cache=0.0MiB(73tx)
-2017-06-13 18:52:04 UpdateTip: new best=0d4baa366fa9bb982d67421bbd29b22528ce796014ba2bc320dcf0105f8cc426 height=73 version=0x20000000 log2_work=6.2094534 tx=74 date='2017-06-13 18:52:08' progress=1.000000 cache=0.0MiB(74tx)
-2017-06-13 18:52:04 UpdateTip: new best=6af9bf0695425a8d89db488102ece240c1580c2c10497989d964ae0218ce9334 height=74 version=0x20000000 log2_work=6.2288187 tx=75 date='2017-06-13 18:52:09' progress=1.000000 cache=0.0MiB(75tx)
-2017-06-13 18:52:04 UpdateTip: new best=02a40a54a7954aed54283d6da44e99c502ccf90b285550679260ea7b858bfd44 height=75 version=0x20000000 log2_work=6.2479275 tx=76 date='2017-06-13 18:52:09' progress=1.000000 cache=0.0MiB(76tx)
-2017-06-13 18:52:04 UpdateTip: new best=e93a505ed32f3fc32b8cef2be0573c186b73c9f5704c589545b98d60851b27d1 height=76 version=0x20000000 log2_work=6.2667865 tx=77 date='2017-06-13 18:52:09' progress=1.000000 cache=0.0MiB(77tx)
-2017-06-13 18:52:04 UpdateTip: new best=f73d2aa06a1d3b1fab23b8300a811abed374b315487f4918a0a40cfb56c3c8b1 height=77 version=0x20000000 log2_work=6.2854022 tx=78 date='2017-06-13 18:52:09' progress=1.000000 cache=0.0MiB(78tx)
-2017-06-13 18:52:04 UpdateTip: new best=13220f4d4f57d7129e0ed86d6ad5f27cd1b829300433811cef09f87c63417295 height=78 version=0x20000000 log2_work=6.3037807 tx=79 date='2017-06-13 18:52:09' progress=1.000000 cache=0.0MiB(79tx)
-2017-06-13 18:52:04 UpdateTip: new best=cc7ee76ad6104f262bf59147801c631b38f88e8aafc84755ffecbd2c1691c55c height=79 version=0x20000000 log2_work=6.3219281 tx=80 date='2017-06-13 18:52:09' progress=1.000000 cache=0.0MiB(80tx)
-2017-06-13 18:52:04 UpdateTip: new best=530d509686801aaca32c33f7e46f6f0d3df7941d59bb9f8692aaf2d87c54c2f1 height=80 version=0x20000000 log2_work=6.33985 tx=81 date='2017-06-13 18:52:10' progress=1.000000 cache=0.0MiB(81tx)
-2017-06-13 18:52:04 UpdateTip: new best=4b346cd03f9e275dc8e56b2c2005bd2cf926c2467656ccf535edc6e0d6ee859d height=81 version=0x20000000 log2_work=6.357552 tx=82 date='2017-06-13 18:52:10' progress=1.000000 cache=0.0MiB(82tx)
-2017-06-13 18:52:04 UpdateTip: new best=f9af66a96ccf924ef4c84787cac3117dd5d5b3d6881a1cd194e85ffe1402f644 height=82 version=0x20000000 log2_work=6.3750394 tx=83 date='2017-06-13 18:52:10' progress=1.000000 cache=0.0MiB(83tx)
-2017-06-13 18:52:04 UpdateTip: new best=83a7dac44fb39a39d31c71cad3536f5c3013a62a9c19650b527fee4d727aa97f height=83 version=0x20000000 log2_work=6.3923174 tx=84 date='2017-06-13 18:52:10' progress=1.000000 cache=0.0MiB(84tx)
-2017-06-13 18:52:04 UpdateTip: new best=882ef68b156228f72a6c0efa702b3e9f48b1b076dfe1a222d239fcc7ec4f6c8d height=84 version=0x20000000 log2_work=6.4093909 tx=85 date='2017-06-13 18:52:10' progress=1.000000 cache=0.0MiB(85tx)
-2017-06-13 18:52:04 UpdateTip: new best=3a0d4ab77e99c7bc1892a68e47698d3e1928c9b06588f063fa37ff0defecb0ee height=85 version=0x20000000 log2_work=6.4262648 tx=86 date='2017-06-13 18:52:10' progress=1.000000 cache=0.0MiB(86tx)
-2017-06-13 18:52:04 UpdateTip: new best=1e9693df632cbbbecff721139c43592ee2a99a289e3b248633ba7420a3215f51 height=86 version=0x20000000 log2_work=6.4429435 tx=87 date='2017-06-13 18:52:11' progress=1.000000 cache=0.0MiB(87tx)
-2017-06-13 18:52:04 UpdateTip: new best=76eca7d68d46b20e6580d50eb1018492e892f955b99992752df09aff8f5ac793 height=87 version=0x20000000 log2_work=6.4594316 tx=88 date='2017-06-13 18:52:11' progress=1.000000 cache=0.0MiB(88tx)
-2017-06-13 18:52:04 UpdateTip: new best=a8ca310d6ca7e15e6f78695d8b6e604b3e8572e0e1a959f56b8c6d2193eaa1d8 height=88 version=0x20000000 log2_work=6.4757334 tx=89 date='2017-06-13 18:52:11' progress=1.000000 cache=0.0MiB(89tx)
-2017-06-13 18:52:04 UpdateTip: new best=d57ab91ad078edc84d38b2386675c10100f525ead1cbfaa819e6ec90353915ee height=89 version=0x20000000 log2_work=6.4918531 tx=90 date='2017-06-13 18:52:11' progress=1.000000 cache=0.0MiB(90tx)
-2017-06-13 18:52:04 UpdateTip: new best=e70171a9633758071d79d82222b2893c82eb41c97d4d238554b0b5c4640e531f height=90 version=0x20000000 log2_work=6.5077946 tx=91 date='2017-06-13 18:52:11' progress=1.000000 cache=0.0MiB(91tx)
-2017-06-13 18:52:04 UpdateTip: new best=a48bbcc70b952b7996ca214f7bcfe6f22fbb08e235afb2c4f120438dfc554509 height=91 version=0x20000000 log2_work=6.523562 tx=92 date='2017-06-13 18:52:11' progress=1.000000 cache=0.0MiB(92tx)
-2017-06-13 18:52:04 UpdateTip: new best=583c490124a7d9361f9498f2651c56c4aff64116cd10facaaf90ee7527e90fec height=92 version=0x20000000 log2_work=6.5391588 tx=93 date='2017-06-13 18:52:12' progress=1.000000 cache=0.0MiB(93tx)
-2017-06-13 18:52:04 UpdateTip: new best=7f4772369122f525b0540861c7a2aca38c7c66f3fcf4ffc6feb5a6f3bc1335aa height=93 version=0x20000000 log2_work=6.5545889 tx=94 date='2017-06-13 18:52:12' progress=1.000000 cache=0.0MiB(94tx)
-2017-06-13 18:52:04 UpdateTip: new best=dcf3d4e50e01f61a25d435b8cb7f5df72e2a5c841f72a6baf562d753a41bc82a height=94 version=0x20000000 log2_work=6.5698556 tx=95 date='2017-06-13 18:52:12' progress=1.000000 cache=0.0MiB(95tx)
-2017-06-13 18:52:04 UpdateTip: new best=5143bcfc6f251dac8db186ff5eab97a2483017dcf989cc10d4bb70186bea0f3c height=95 version=0x20000000 log2_work=6.5849625 tx=96 date='2017-06-13 18:52:12' progress=1.000000 cache=0.0MiB(96tx)
-2017-06-13 18:52:04 UpdateTip: new best=6a5209174df2428bed9e028474902cb3e448587342497440634971c56e0b3de2 height=96 version=0x20000000 log2_work=6.5999128 tx=97 date='2017-06-13 18:52:12' progress=1.000000 cache=0.0MiB(97tx)
-2017-06-13 18:52:04 UpdateTip: new best=cfce852070a65928a1f0aa8b4017a6a0b95a2e96c258af47202aeb4ff5206aab height=97 version=0x20000000 log2_work=6.6147098 tx=98 date='2017-06-13 18:52:12' progress=1.000000 cache=0.0MiB(98tx)
-2017-06-13 18:52:04 UpdateTip: new best=664da30058da3b48d7f23d5eb54badcff638aa2be096b3677add6cb1b5a98af0 height=98 version=0x20000000 log2_work=6.6293566 tx=99 date='2017-06-13 18:52:13' progress=1.000000 cache=0.0MiB(99tx)
-2017-06-13 18:52:04 UpdateTip: new best=05e7e8684737c57e3c26c859478ed8cc386180a3a8eec3d02504c9b1661b74c6 height=99 version=0x20000000 log2_work=6.6438562 tx=100 date='2017-06-13 18:52:13' progress=1.000000 cache=0.0MiB(100tx)
-2017-06-13 18:52:04 UpdateTip: new best=aea33bbe84b62def96b7841b50d08424e37c5e8fce0223faac7280b8ac7d23a8 height=100 version=0x20000000 log2_work=6.6582115 tx=101 date='2017-06-13 18:52:13' progress=1.000000 cache=0.0MiB(101tx)
-2017-06-13 18:52:08 UpdateTip: new best=1c7ca42149bf50af9b4a2a6de7e970c17ab1726e43016cc8674a67e958e045f5 height=101 version=0x20000000 log2_work=6.6724253 tx=106 date='2017-06-13 18:52:13' progress=1.000000 cache=0.0MiB(106tx)
-2017-06-13 18:52:08 AddToWallet 06c847d5c0df25a6a8646882be99042c2cfb5e2712859ab70258386012f988f3  new
-2017-06-13 18:52:08 AddToWallet 6412987218ff1736f062f2268d2eed525b7d89cb095cf8d56bbc0c146ac677d6  new
-2017-06-13 18:52:23 UpdateTip: new best=57da87313097ca80a604b9618300f7b9effa6bfe3330115e8dec237677d106f8 height=102 version=0x20000000 log2_work=6.6865005 tx=125 date='2017-06-13 18:52:22' progress=1.000000 cache=0.0MiB(125tx)
-2017-06-13 18:52:53 keypool added key 12, size=11
-2017-06-13 18:52:53 keypool reserve 2
-2017-06-13 18:52:53 keypool keep 2
-2017-06-13 18:53:19 AddToWallet 922990487e72e45a6f87fce97604cf4c0f9aa1000271818df5370e39d787ef70  new
-2017-06-13 18:53:23 UpdateTip: new best=0d68623e30d92b6c252b29cae3658698f6ed64605ec4b8b97d1045bf825b033b height=103 version=0x20000000 log2_work=6.7004397 tx=127 date='2017-06-13 18:53:23' progress=1.000000 cache=0.0MiB(124tx)
-2017-06-13 18:53:24 AddToWallet 922990487e72e45a6f87fce97604cf4c0f9aa1000271818df5370e39d787ef70  update
-2017-06-13 18:54:03 tor: Thread interrupt
-2017-06-13 18:54:03 torcontrol thread exit
-2017-06-13 18:54:03 scheduler thread interrupt
-2017-06-13 18:54:03 opencon thread interrupt
-2017-06-13 18:54:03 msghand thread interrupt
-2017-06-13 18:54:03 addcon thread interrupt
-2017-06-13 18:54:03 net thread interrupt
-2017-06-13 18:54:03 Shutdown: In progress...
-2017-06-13 18:54:03 StopNode()
-2017-06-13 18:54:03 Shutdown: done
+2017-06-13 19:10:06 Bitcoin version v0.13.1.0-1240002
+2017-06-13 19:10:06 InitParameterInteraction: parameter interaction: -connect set -> setting -dnsseed=0
+2017-06-13 19:10:06 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2017-06-13 19:10:06 Default data directory /root/.bitcoin
+2017-06-13 19:10:06 Using data directory /root/frb/blockchain-demo/demo/data/dave/elementsregtest
+2017-06-13 19:10:06 Using config file /root/frb/blockchain-demo/demo/data/dave/elements.conf
+2017-06-13 19:10:06 Using at most 125 connections (1024 file descriptors available)
+2017-06-13 19:10:06 Using 16 threads for script verification
+2017-06-13 19:10:06 scheduler thread start
+2017-06-13 19:10:06 HTTP: creating work queue of depth 16
+2017-06-13 19:10:06 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2017-06-13 19:10:06 HTTP: starting 4 worker threads
+2017-06-13 19:10:06 Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2017-06-13 19:10:06 Using wallet wallet.dat
+2017-06-13 19:10:06 init message: Verifying wallet...
+2017-06-13 19:10:06 CDBEnv::Open: LogDir=/root/frb/blockchain-demo/demo/data/dave/elementsregtest/database ErrorFile=/root/frb/blockchain-demo/demo/data/dave/elementsregtest/db.log
+2017-06-13 19:10:06 Bound to [::]:10031
+2017-06-13 19:10:06 Bound to 0.0.0.0:10031
+2017-06-13 19:10:06 Cache configuration:
+2017-06-13 19:10:06 * Using 37.5MiB for block index database
+2017-06-13 19:10:06 * Using 8.0MiB for chain state database
+2017-06-13 19:10:06 * Using 254.5MiB for in-memory UTXO set
+2017-06-13 19:10:06 init message: Loading block index...
+2017-06-13 19:10:06 Opening LevelDB in /root/frb/blockchain-demo/demo/data/dave/elementsregtest/blocks/index
+2017-06-13 19:10:07 Opened LevelDB successfully
+2017-06-13 19:10:07 Using obfuscation key for /root/frb/blockchain-demo/demo/data/dave/elementsregtest/blocks/index: 0000000000000000
+2017-06-13 19:10:07 Opening LevelDB in /root/frb/blockchain-demo/demo/data/dave/elementsregtest/chainstate
+2017-06-13 19:10:07 Opened LevelDB successfully
+2017-06-13 19:10:07 Wrote new obfuscate key for /root/frb/blockchain-demo/demo/data/dave/elementsregtest/chainstate: 5c5fba23820afdfd
+2017-06-13 19:10:07 Using obfuscation key for /root/frb/blockchain-demo/demo/data/dave/elementsregtest/chainstate: 5c5fba23820afdfd
+2017-06-13 19:10:07 LoadBlockIndexDB: last block file = 0
+2017-06-13 19:10:07 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2017-06-13 19:10:07 Checking all blk files are present...
+2017-06-13 19:10:07 LoadBlockIndexDB: transaction index disabled
+2017-06-13 19:10:07 Initializing databases...
+2017-06-13 19:10:07 Pre-allocating up to position 0x1000000 in blk00000.dat
+2017-06-13 19:10:07 init message: Verifying blocks...
+2017-06-13 19:10:07  block index             763ms
+2017-06-13 19:10:07 init message: Loading wallet...
+2017-06-13 19:10:08 nFileVersion = 130100
+2017-06-13 19:10:08 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2017-06-13 19:10:08 Performing wallet upgrade to 60000
+2017-06-13 19:10:08 keypool added key 1, size=1
+2017-06-13 19:10:08 keypool added key 2, size=2
+2017-06-13 19:10:09 keypool added key 3, size=3
+2017-06-13 19:10:09 keypool added key 4, size=4
+2017-06-13 19:10:09 keypool added key 5, size=5
+2017-06-13 19:10:09 keypool added key 6, size=6
+2017-06-13 19:10:09 keypool added key 7, size=7
+2017-06-13 19:10:10 keypool added key 8, size=8
+2017-06-13 19:10:10 keypool added key 9, size=9
+2017-06-13 19:10:10 keypool added key 10, size=10
+2017-06-13 19:10:10 keypool added key 11, size=11
+2017-06-13 19:10:10 keypool reserve 1
+2017-06-13 19:10:10 keypool keep 1
+2017-06-13 19:10:11  wallet                 3803ms
+2017-06-13 19:10:11 UpdateTip: new best=92a066f2390d9570f06072767fa01612147aa072cd8cdb863d677035f775abf2 height=0 version=0x00000001 log2_work=0 tx=1 date='2011-02-02 23:16:42' progress=1.000000 cache=0.0MiB(1tx)
+2017-06-13 19:10:11 AddToWallet 389ced8ee87ebead8c4c3af49dc86be7e8f543ae3ca6956e319dee180e3a73f4  new
+2017-06-13 19:10:11 AddToWallet 389ced8ee87ebead8c4c3af49dc86be7e8f543ae3ca6956e319dee180e3a73f4  
+2017-06-13 19:10:11 mapBlockIndex.size() = 1
+2017-06-13 19:10:11 nBestHeight = 0
+2017-06-13 19:10:11 setKeyPool.size() = 10
+2017-06-13 19:10:11 mapWallet.size() = 1
+2017-06-13 19:10:11 mapAddressBook.size() = 1
+2017-06-13 19:10:11 init message: Loading addresses...
+2017-06-13 19:10:11 torcontrol thread start
+2017-06-13 19:10:11 ERROR: Read: Failed to open file /root/frb/blockchain-demo/demo/data/dave/elementsregtest/peers.dat
+2017-06-13 19:10:11 Invalid or missing peers.dat; recreating
+2017-06-13 19:10:11 init message: Loading banlist...
+2017-06-13 19:10:11 ERROR: Read: Failed to open file /root/frb/blockchain-demo/demo/data/dave/elementsregtest/banlist.dat
+2017-06-13 19:10:11 Invalid or missing banlist.dat; recreating
+2017-06-13 19:10:11 init message: Starting network threads...
+2017-06-13 19:10:11 DNS seeding disabled
+2017-06-13 19:10:11 net thread start
+2017-06-13 19:10:11 opencon thread start
+2017-06-13 19:10:11 init message: Awaiting bitcoind RPC warmup
+2017-06-13 19:10:11 init message: Done loading
+2017-06-13 19:10:11 msghand thread start
+2017-06-13 19:10:11 addcon thread start
+2017-06-13 19:10:11 receive version message: /Satoshi:0.13.1/: version 70014, blocks=0, us=0.0.0.0:0, peer=1
+2017-06-13 19:10:11 receive version message: /Satoshi:0.13.1/: version 70014, blocks=100, us=0.0.0.0:0, peer=2
+2017-06-13 19:10:11 Pre-allocating up to position 0x100000 in rev00000.dat
+2017-06-13 19:10:11 UpdateTip: new best=bbbbcf387b923edcd23ccd77d019c313b3e74433f017f8a0a7edf54a4c08c147 height=1 version=0x20000000 log2_work=1 tx=2 date='2017-06-13 19:10:02' progress=1.000000 cache=0.0MiB(2tx)
+2017-06-13 19:10:11 UpdateTip: new best=ce7d154d7d95bf81ea7864fbb7b388c5d8fa55f2b82161c16f9ba7ac186a9aa9 height=2 version=0x20000000 log2_work=1.5849625 tx=3 date='2017-06-13 19:10:03' progress=1.000000 cache=0.0MiB(3tx)
+2017-06-13 19:10:11 UpdateTip: new best=0f419c24d179e6a4f76aeb05fce8127d396f0d6b2be3103f43c95ce7539fc3f9 height=3 version=0x20000000 log2_work=2 tx=4 date='2017-06-13 19:10:03' progress=1.000000 cache=0.0MiB(4tx)
+2017-06-13 19:10:11 UpdateTip: new best=7c59d94e7d9df27043011419ccf77cf7641d686d675092a80e4d805909197726 height=4 version=0x20000000 log2_work=2.3219281 tx=5 date='2017-06-13 19:10:04' progress=1.000000 cache=0.0MiB(5tx)
+2017-06-13 19:10:11 UpdateTip: new best=ecd5083af1b5fb4967a578cdbd0fd67b9610cad8eef6ca162d056c8668d1c0df height=5 version=0x20000000 log2_work=2.5849625 tx=6 date='2017-06-13 19:10:04' progress=1.000000 cache=0.0MiB(6tx)
+2017-06-13 19:10:11 UpdateTip: new best=b2a76c7f6795d295955ba6270fdbf1cb2df7f7ecc4d2c3988a56a76af83433a6 height=6 version=0x20000000 log2_work=2.8073549 tx=7 date='2017-06-13 19:10:04' progress=1.000000 cache=0.0MiB(7tx)
+2017-06-13 19:10:11 UpdateTip: new best=b8a09ec6f4fb99a90d2689c3536dcd11588be745e520fc942d38ea9d4bb5efa7 height=7 version=0x20000000 log2_work=3 tx=8 date='2017-06-13 19:10:04' progress=1.000000 cache=0.0MiB(8tx)
+2017-06-13 19:10:11 UpdateTip: new best=66accbfac847c4ec5fb4e58d8cb3195320b9b3e91d78bdf40701b4d707a10e18 height=8 version=0x20000000 log2_work=3.169925 tx=9 date='2017-06-13 19:10:05' progress=1.000000 cache=0.0MiB(9tx)
+2017-06-13 19:10:11 UpdateTip: new best=8ebc496f45500b797d2c0c81a56b3176deeeed63b8e484a1b809f31bfd040898 height=9 version=0x20000000 log2_work=3.3219281 tx=10 date='2017-06-13 19:10:05' progress=1.000000 cache=0.0MiB(10tx)
+2017-06-13 19:10:11 UpdateTip: new best=16dae37111d20a04440ff68ebc8297a36905884546caa551f895e019e4dd6184 height=10 version=0x20000000 log2_work=3.4594316 tx=11 date='2017-06-13 19:10:05' progress=1.000000 cache=0.0MiB(11tx)
+2017-06-13 19:10:11 UpdateTip: new best=2a5734841a3e2cb11b87633e25b6496a855998bfe47570d41647ce0ec3b84a23 height=11 version=0x20000000 log2_work=3.5849625 tx=12 date='2017-06-13 19:10:05' progress=1.000000 cache=0.0MiB(12tx)
+2017-06-13 19:10:11 UpdateTip: new best=ae4e98e7476d1f0b0c6d8b5ddb19c29e53aa281c38ad6caafce5b9e73ca15f48 height=12 version=0x20000000 log2_work=3.7004397 tx=13 date='2017-06-13 19:10:05' progress=1.000000 cache=0.0MiB(13tx)
+2017-06-13 19:10:11 UpdateTip: new best=87669189df5d4fb6d5a6dd3adb265272ae42c79a1a5205dbe256c7d169014bcc height=13 version=0x20000000 log2_work=3.8073549 tx=14 date='2017-06-13 19:10:05' progress=1.000000 cache=0.0MiB(14tx)
+2017-06-13 19:10:11 UpdateTip: new best=cd89c45a06b9f57bc2a9c4bfdcf2b2c10df5aba05e5fdfefd6571e765a59b0a7 height=14 version=0x20000000 log2_work=3.9068906 tx=15 date='2017-06-13 19:10:06' progress=1.000000 cache=0.0MiB(15tx)
+2017-06-13 19:10:11 UpdateTip: new best=2e104c3e32e252d9cc67bbb0529b2bd45eabf29434a401e5862051354cec23c5 height=15 version=0x20000000 log2_work=4 tx=16 date='2017-06-13 19:10:06' progress=1.000000 cache=0.0MiB(16tx)
+2017-06-13 19:10:11 UpdateTip: new best=ba82492e8cebce48683beae549a265dbf69df40783c8e223fec96fb9669f7229 height=16 version=0x20000000 log2_work=4.0874628 tx=17 date='2017-06-13 19:10:06' progress=1.000000 cache=0.0MiB(17tx)
+2017-06-13 19:10:11 UpdateTip: new best=60ff206c5e6b07e58b45dd2365b4ff6b6e1a21b84e2049e08ea12fff2d54d645 height=17 version=0x20000000 log2_work=4.169925 tx=18 date='2017-06-13 19:10:06' progress=1.000000 cache=0.0MiB(18tx)
+2017-06-13 19:10:11 UpdateTip: new best=2205cfcb075740d7c1829126a99bafe00a01e87a4e47ee46bfcf69adf1901af8 height=18 version=0x20000000 log2_work=4.2479275 tx=19 date='2017-06-13 19:10:06' progress=1.000000 cache=0.0MiB(19tx)
+2017-06-13 19:10:11 UpdateTip: new best=c76a534becd4633f841e985781671b15604f1e796cfdf1803c33ca0e4d7f0edf height=19 version=0x20000000 log2_work=4.3219281 tx=20 date='2017-06-13 19:10:06' progress=1.000000 cache=0.0MiB(20tx)
+2017-06-13 19:10:11 UpdateTip: new best=01f8f9b82473e2c105a7cd0d3b3c4d8fddb5578784294f9de9049e982d28c6b6 height=20 version=0x20000000 log2_work=4.3923174 tx=21 date='2017-06-13 19:10:07' progress=1.000000 cache=0.0MiB(21tx)
+2017-06-13 19:10:11 UpdateTip: new best=5f4cc582f3515fa49a29340a614123ceb03ce058efe50dcb05654063854212db height=21 version=0x20000000 log2_work=4.4594316 tx=22 date='2017-06-13 19:10:07' progress=1.000000 cache=0.0MiB(22tx)
+2017-06-13 19:10:11 UpdateTip: new best=f08eccd8421290996f370129c7b7426b57ebf616e781c3391cb1b2fd2018c5a2 height=22 version=0x20000000 log2_work=4.523562 tx=23 date='2017-06-13 19:10:07' progress=1.000000 cache=0.0MiB(23tx)
+2017-06-13 19:10:11 UpdateTip: new best=88ee8ccf7d82afe3ea4acabb9eb0a8c2860cdd71ac405cbabeb62c1a70fca1f6 height=23 version=0x20000000 log2_work=4.5849625 tx=24 date='2017-06-13 19:10:07' progress=1.000000 cache=0.0MiB(24tx)
+2017-06-13 19:10:11 UpdateTip: new best=c02ec9aa9dbafe419093ed65d034fdedae45af85fde8176e727913b68412788f height=24 version=0x20000000 log2_work=4.6438562 tx=25 date='2017-06-13 19:10:07' progress=1.000000 cache=0.0MiB(25tx)
+2017-06-13 19:10:11 UpdateTip: new best=8e2bfcdf88b051f0dcf2cfd4dceda6e705b716b630058c64ed29267210e5e727 height=25 version=0x20000000 log2_work=4.7004397 tx=26 date='2017-06-13 19:10:07' progress=1.000000 cache=0.0MiB(26tx)
+2017-06-13 19:10:11 UpdateTip: new best=3e2c46cc85e8132f7408d36105fc22ca27ce15e3331b8b41f1e7848327f86c60 height=26 version=0x20000000 log2_work=4.7548875 tx=27 date='2017-06-13 19:10:08' progress=1.000000 cache=0.0MiB(27tx)
+2017-06-13 19:10:11 UpdateTip: new best=bf5b6e1f6b52bceed6bddf291a505baba0adb462ad0a27efcdb9ff834ba7dc69 height=27 version=0x20000000 log2_work=4.8073549 tx=28 date='2017-06-13 19:10:08' progress=1.000000 cache=0.0MiB(28tx)
+2017-06-13 19:10:11 UpdateTip: new best=bfdfcf4795f51f08d20f32812fb5984f4e8a2cd5d41820e481b0a8764b7f5616 height=28 version=0x20000000 log2_work=4.857981 tx=29 date='2017-06-13 19:10:08' progress=1.000000 cache=0.0MiB(29tx)
+2017-06-13 19:10:11 UpdateTip: new best=240f5399ec4f0c6be4a70eb8eeb8a60965589f7918c0a468222371b5dd63787d height=29 version=0x20000000 log2_work=4.9068906 tx=30 date='2017-06-13 19:10:08' progress=1.000000 cache=0.0MiB(30tx)
+2017-06-13 19:10:11 UpdateTip: new best=090eba1ecd14e771cbaab43ca02c23c4609da9607bbac6ff2d713c34d681f061 height=30 version=0x20000000 log2_work=4.9541963 tx=31 date='2017-06-13 19:10:08' progress=1.000000 cache=0.0MiB(31tx)
+2017-06-13 19:10:11 UpdateTip: new best=7faf9d8ca9bce4052cee9ca1855bed769ea8996b2348d1ac94a2a2cbbb41c6a9 height=31 version=0x20000000 log2_work=5 tx=32 date='2017-06-13 19:10:08' progress=1.000000 cache=0.0MiB(32tx)
+2017-06-13 19:10:11 UpdateTip: new best=540a9373bb7567453c4bdc383d5c90bdc80663fb2872b1328639bfb7dde708df height=32 version=0x20000000 log2_work=5.0443941 tx=33 date='2017-06-13 19:10:09' progress=1.000000 cache=0.0MiB(33tx)
+2017-06-13 19:10:11 UpdateTip: new best=0035e597b87d49ef6e6e387340580e45c4559e3795544d58d156bb0f522cbbeb height=33 version=0x20000000 log2_work=5.0874628 tx=34 date='2017-06-13 19:10:09' progress=1.000000 cache=0.0MiB(34tx)
+2017-06-13 19:10:11 UpdateTip: new best=8d02c7d59e46c22b88ce33579757cb3e53b1b993c55afa68af355746af23b164 height=34 version=0x20000000 log2_work=5.129283 tx=35 date='2017-06-13 19:10:09' progress=1.000000 cache=0.0MiB(35tx)
+2017-06-13 19:10:11 UpdateTip: new best=340354d2b98c73a21b64eb4c49827c2e4e74df5ed23e0523f444b426c535a977 height=35 version=0x20000000 log2_work=5.169925 tx=36 date='2017-06-13 19:10:09' progress=1.000000 cache=0.0MiB(36tx)
+2017-06-13 19:10:12 UpdateTip: new best=959a52adc121f83f1200e6a445e91add867d1010cd42027b55ccb59eec52c482 height=36 version=0x20000000 log2_work=5.2094534 tx=37 date='2017-06-13 19:10:09' progress=1.000000 cache=0.0MiB(37tx)
+2017-06-13 19:10:12 UpdateTip: new best=04e76e1df50d903e7e2c7610e7bf1f01109eddf3a5f8d8608aed12a44ccc12bc height=37 version=0x20000000 log2_work=5.2479275 tx=38 date='2017-06-13 19:10:09' progress=1.000000 cache=0.0MiB(38tx)
+2017-06-13 19:10:12 UpdateTip: new best=f657f92f921ccdffd707518cb051808f97a020b4fad6e3ff6c87c173f58c426c height=38 version=0x20000000 log2_work=5.2854022 tx=39 date='2017-06-13 19:10:10' progress=1.000000 cache=0.0MiB(39tx)
+2017-06-13 19:10:12 UpdateTip: new best=e5f697b5f3627b5c85e7e0f531b2a7fbbd54e2715f1a6661c08ab8d33ca0b371 height=39 version=0x20000000 log2_work=5.3219281 tx=40 date='2017-06-13 19:10:10' progress=1.000000 cache=0.0MiB(40tx)
+2017-06-13 19:10:12 UpdateTip: new best=31613e0d2052766214a123c541276ed7cbaaa606b58e2b396ca58b5b91f5d707 height=40 version=0x20000000 log2_work=5.357552 tx=41 date='2017-06-13 19:10:10' progress=1.000000 cache=0.0MiB(41tx)
+2017-06-13 19:10:12 UpdateTip: new best=effbb946a4fc42d19eca1584055c1509111046cfcba533e1b907402800245fe6 height=41 version=0x20000000 log2_work=5.3923174 tx=42 date='2017-06-13 19:10:10' progress=1.000000 cache=0.0MiB(42tx)
+2017-06-13 19:10:12 UpdateTip: new best=9fc3a94d523ccf5d6a824cde07ec46e4f26ea7ef616c38aa585e2ec3e2f618d2 height=42 version=0x20000000 log2_work=5.4262648 tx=43 date='2017-06-13 19:10:10' progress=1.000000 cache=0.0MiB(43tx)
+2017-06-13 19:10:12 UpdateTip: new best=af290ba7bdc77fc4378456fbe3a2426f1a3d90361655ad76519f083b4b4705a3 height=43 version=0x20000000 log2_work=5.4594316 tx=44 date='2017-06-13 19:10:10' progress=1.000000 cache=0.0MiB(44tx)
+2017-06-13 19:10:12 UpdateTip: new best=14fab2ac369ccedbd13cbadcb429c3dbc78da91e818335b3482b2f68c8a20b6d height=44 version=0x20000000 log2_work=5.4918531 tx=45 date='2017-06-13 19:10:11' progress=1.000000 cache=0.0MiB(45tx)
+2017-06-13 19:10:12 UpdateTip: new best=d56a5b5c87744b6aebce264eb6f429452e21c8372394f212c4cfb03704379d7c height=45 version=0x20000000 log2_work=5.523562 tx=46 date='2017-06-13 19:10:11' progress=1.000000 cache=0.0MiB(46tx)
+2017-06-13 19:10:12 UpdateTip: new best=331540a5ac724a7939611436bd562b4b990af5da4116b2279fdf6db21b6114e1 height=46 version=0x20000000 log2_work=5.5545889 tx=47 date='2017-06-13 19:10:11' progress=1.000000 cache=0.0MiB(47tx)
+2017-06-13 19:10:12 UpdateTip: new best=579200139825e1b255ed1023ba6b0814ea40d4804009913ce5dabfb3b5469ec7 height=47 version=0x20000000 log2_work=5.5849625 tx=48 date='2017-06-13 19:10:11' progress=1.000000 cache=0.0MiB(48tx)
+2017-06-13 19:10:12 UpdateTip: new best=258afab753852af5b41c4075ec1e08b94b8b0ed0248f371396af3f2110140779 height=48 version=0x20000000 log2_work=5.6147098 tx=49 date='2017-06-13 19:10:11' progress=1.000000 cache=0.0MiB(49tx)
+2017-06-13 19:10:12 UpdateTip: new best=badb011478acb746bb7219f48a82197d0adaf5c9113e9edc2eb8114be9d83d74 height=49 version=0x20000000 log2_work=5.6438562 tx=50 date='2017-06-13 19:10:11' progress=1.000000 cache=0.0MiB(50tx)
+2017-06-13 19:10:12 UpdateTip: new best=2d919649a2aa9a3230d52a9b7a7f2c509a2cbacd7fe8aa5bcc9c3f68e9e147f2 height=50 version=0x20000000 log2_work=5.6724253 tx=51 date='2017-06-13 19:10:12' progress=1.000000 cache=0.0MiB(51tx)
+2017-06-13 19:10:12 UpdateTip: new best=c1b8d8f77f4db3c5673a7bad1c007dfa452e6d34b29043470c040102becfbe2f height=51 version=0x20000000 log2_work=5.7004397 tx=52 date='2017-06-13 19:10:12' progress=1.000000 cache=0.0MiB(52tx)
+2017-06-13 19:10:12 UpdateTip: new best=3cddcff8ca7c204a7ae7ae2563603b011687a7210a4e2f993f1fbf1c62ebed2a height=52 version=0x20000000 log2_work=5.7279205 tx=53 date='2017-06-13 19:10:12' progress=1.000000 cache=0.0MiB(53tx)
+2017-06-13 19:10:12 UpdateTip: new best=920122662aa5ce2b8c3233c4d8a4b289edfe86fd01abf2810559b0c8a6057ea8 height=53 version=0x20000000 log2_work=5.7548875 tx=54 date='2017-06-13 19:10:12' progress=1.000000 cache=0.0MiB(54tx)
+2017-06-13 19:10:12 UpdateTip: new best=390d46e79c791b44720bb7fcf16bd2590f7e5074412e38a9825c57592f0cf3f2 height=54 version=0x20000000 log2_work=5.7813597 tx=55 date='2017-06-13 19:10:12' progress=1.000000 cache=0.0MiB(55tx)
+2017-06-13 19:10:12 UpdateTip: new best=e53ceac4dac638d0e5fc697d867a06e2362b11970cc354b82c53286fc35d6898 height=55 version=0x20000000 log2_work=5.8073549 tx=56 date='2017-06-13 19:10:12' progress=1.000000 cache=0.0MiB(56tx)
+2017-06-13 19:10:12 UpdateTip: new best=52d839b61f650582fb43ef05f694a2675366b46709c5ec25381364e5c125e3a5 height=56 version=0x20000000 log2_work=5.83289 tx=57 date='2017-06-13 19:10:13' progress=1.000000 cache=0.0MiB(57tx)
+2017-06-13 19:10:12 UpdateTip: new best=94ad3aaec5c92c9e9692915119a93e781093a820a42f25bd3eb5ed48fe0016a0 height=57 version=0x20000000 log2_work=5.857981 tx=58 date='2017-06-13 19:10:13' progress=1.000000 cache=0.0MiB(58tx)
+2017-06-13 19:10:12 UpdateTip: new best=f7c4050b8737ba3e97f610ffd283c86a030a9ac1a6b322a1dea24facdd1bbf7e height=58 version=0x20000000 log2_work=5.882643 tx=59 date='2017-06-13 19:10:13' progress=1.000000 cache=0.0MiB(59tx)
+2017-06-13 19:10:12 UpdateTip: new best=45b68bb16fb03e6f4086d30d6ab3504cc35a7212adbd47af5f31b7d2ddfd46ca height=59 version=0x20000000 log2_work=5.9068906 tx=60 date='2017-06-13 19:10:13' progress=1.000000 cache=0.0MiB(60tx)
+2017-06-13 19:10:12 UpdateTip: new best=e86f80a8a258992578140b053e304a5b4f311e8151d2fb1a5332462bcdb86f8f height=60 version=0x20000000 log2_work=5.9307373 tx=61 date='2017-06-13 19:10:13' progress=1.000000 cache=0.0MiB(61tx)
+2017-06-13 19:10:12 UpdateTip: new best=136c1ba97f9061adbd9e99d5b45b00875cbedd48320d87fb910fc1e1273ec95e height=61 version=0x20000000 log2_work=5.9541963 tx=62 date='2017-06-13 19:10:13' progress=1.000000 cache=0.0MiB(62tx)
+2017-06-13 19:10:12 UpdateTip: new best=f050580cd8a107c4d540e9a9be1152d400b3eb2fe1403515b877331e286a709c height=62 version=0x20000000 log2_work=5.9772799 tx=63 date='2017-06-13 19:10:14' progress=1.000000 cache=0.0MiB(63tx)
+2017-06-13 19:10:12 UpdateTip: new best=22e0bde74a04fb80d61229ac01f0286ee5a0174bcb5ee48717f8abbda99f3bca height=63 version=0x20000000 log2_work=6 tx=64 date='2017-06-13 19:10:14' progress=1.000000 cache=0.0MiB(64tx)
+2017-06-13 19:10:12 UpdateTip: new best=d4ca376329f97171e20d5bc87967099c2886e67a0a295956cf903fb273f2a0cd height=64 version=0x20000000 log2_work=6.0223678 tx=65 date='2017-06-13 19:10:14' progress=1.000000 cache=0.0MiB(65tx)
+2017-06-13 19:10:12 UpdateTip: new best=4b7adf5cefa164cfedde0363f569a34a90df2ad81ac5afa89eede6333c82a66f height=65 version=0x20000000 log2_work=6.0443941 tx=66 date='2017-06-13 19:10:14' progress=1.000000 cache=0.0MiB(66tx)
+2017-06-13 19:10:12 UpdateTip: new best=43e2fcf47cbdbe9e5865fcc00c7719dadec0136a481cb5743493793b7c5a587d height=66 version=0x20000000 log2_work=6.0660892 tx=67 date='2017-06-13 19:10:14' progress=1.000000 cache=0.0MiB(67tx)
+2017-06-13 19:10:12 UpdateTip: new best=b75ed1876f210d51047e671babba930582f1e9771a5c2b485145cfece262b3ce height=67 version=0x20000000 log2_work=6.0874628 tx=68 date='2017-06-13 19:10:14' progress=1.000000 cache=0.0MiB(68tx)
+2017-06-13 19:10:12 UpdateTip: new best=ab2fb7dedcc1fe36dd3982dc32e6c496a544fa988e6f86a339e3720fec83e667 height=68 version=0x20000000 log2_work=6.1085245 tx=69 date='2017-06-13 19:10:15' progress=1.000000 cache=0.0MiB(69tx)
+2017-06-13 19:10:12 UpdateTip: new best=cdf8a59540f767721d4f9eedafbdfc81a21c1d3ae29addbb2f80bd96b232c66e height=69 version=0x20000000 log2_work=6.129283 tx=70 date='2017-06-13 19:10:15' progress=1.000000 cache=0.0MiB(70tx)
+2017-06-13 19:10:12 UpdateTip: new best=eda7a943439c0c91c93f103169dedd626fea9478db5d25283b109dc7db19876f height=70 version=0x20000000 log2_work=6.1497471 tx=71 date='2017-06-13 19:10:15' progress=1.000000 cache=0.0MiB(71tx)
+2017-06-13 19:10:12 UpdateTip: new best=8d8f4d36d65a47a11c9b27739e9ad3211dbfdb1d41fe955c1f1228721f9bc762 height=71 version=0x20000000 log2_work=6.169925 tx=72 date='2017-06-13 19:10:15' progress=1.000000 cache=0.0MiB(72tx)
+2017-06-13 19:10:12 UpdateTip: new best=a72609b541231c6855d8d412399a4fe6949f5afc484e50b251192294776b66ef height=72 version=0x20000000 log2_work=6.1898246 tx=73 date='2017-06-13 19:10:15' progress=1.000000 cache=0.0MiB(73tx)
+2017-06-13 19:10:12 UpdateTip: new best=cd0432dd307892e8287dd4d046044faf26d29d1bfff4481739bcbe1d6089648e height=73 version=0x20000000 log2_work=6.2094534 tx=74 date='2017-06-13 19:10:15' progress=1.000000 cache=0.0MiB(74tx)
+2017-06-13 19:10:12 UpdateTip: new best=9cb2517819aeb9434f8985f718a66bbf0c8a98cd490b24f6594a42915453a652 height=74 version=0x20000000 log2_work=6.2288187 tx=75 date='2017-06-13 19:10:16' progress=1.000000 cache=0.0MiB(75tx)
+2017-06-13 19:10:12 UpdateTip: new best=9118c3f1572a18a78ae22412f783e7c6ae5886205c74507178044b5862c23e6e height=75 version=0x20000000 log2_work=6.2479275 tx=76 date='2017-06-13 19:10:16' progress=1.000000 cache=0.0MiB(76tx)
+2017-06-13 19:10:12 UpdateTip: new best=8e623a0eef6386b27a2101717e663ee7a715923e92f2a9304390598b738ac50b height=76 version=0x20000000 log2_work=6.2667865 tx=77 date='2017-06-13 19:10:16' progress=1.000000 cache=0.0MiB(77tx)
+2017-06-13 19:10:12 UpdateTip: new best=dbe2e9040a78d6158c4ae05879690d2316ebdec8788a4a9924af4cfaccf663c7 height=77 version=0x20000000 log2_work=6.2854022 tx=78 date='2017-06-13 19:10:16' progress=1.000000 cache=0.0MiB(78tx)
+2017-06-13 19:10:12 UpdateTip: new best=3041f48c3e77c9661fc80f3baf216c0282f48d26665b8e0b5514af81e86cd20d height=78 version=0x20000000 log2_work=6.3037807 tx=79 date='2017-06-13 19:10:16' progress=1.000000 cache=0.0MiB(79tx)
+2017-06-13 19:10:12 UpdateTip: new best=053428069433660b46198cf19dea60f34ac28f14e5e6b2f83148edac1cad0023 height=79 version=0x20000000 log2_work=6.3219281 tx=80 date='2017-06-13 19:10:16' progress=1.000000 cache=0.0MiB(80tx)
+2017-06-13 19:10:12 UpdateTip: new best=386fe5a36d882c1fa1189a2d04b7e0515ee3859605ea385acbf6f4c9b367aaa6 height=80 version=0x20000000 log2_work=6.33985 tx=81 date='2017-06-13 19:10:17' progress=1.000000 cache=0.0MiB(81tx)
+2017-06-13 19:10:12 UpdateTip: new best=f32e1e4b0b96e005d471bc469dde07bc9c049b62ec56fe5811e236b1c8995529 height=81 version=0x20000000 log2_work=6.357552 tx=82 date='2017-06-13 19:10:17' progress=1.000000 cache=0.0MiB(82tx)
+2017-06-13 19:10:12 UpdateTip: new best=7b4a61e054c117a4040f5323ed92b5a5a8001e614d07224b51ee113ba56e7b85 height=82 version=0x20000000 log2_work=6.3750394 tx=83 date='2017-06-13 19:10:17' progress=1.000000 cache=0.0MiB(83tx)
+2017-06-13 19:10:12 UpdateTip: new best=483f4ff10466422adc0b4d4a3b993dee65d3bffeb31bf34aff0dd8f01d183431 height=83 version=0x20000000 log2_work=6.3923174 tx=84 date='2017-06-13 19:10:17' progress=1.000000 cache=0.0MiB(84tx)
+2017-06-13 19:10:12 UpdateTip: new best=7faf6ae65f7859edd9200471f6dc507729995dd26acbb65ac85ae6229b5db946 height=84 version=0x20000000 log2_work=6.4093909 tx=85 date='2017-06-13 19:10:17' progress=1.000000 cache=0.0MiB(85tx)
+2017-06-13 19:10:12 UpdateTip: new best=647a189f515b1842a82be1ad4cb134eceb5de5bca488226999b2436d158fc818 height=85 version=0x20000000 log2_work=6.4262648 tx=86 date='2017-06-13 19:10:17' progress=1.000000 cache=0.0MiB(86tx)
+2017-06-13 19:10:12 UpdateTip: new best=371db9cb154431dd91298c27c9d82b8cd1029838a831e345acb3b3f18b7f8238 height=86 version=0x20000000 log2_work=6.4429435 tx=87 date='2017-06-13 19:10:18' progress=1.000000 cache=0.0MiB(87tx)
+2017-06-13 19:10:12 UpdateTip: new best=cff7126f3be0f471fc56b92edcbdd367ec0e53f1ada5a1657dbee7f40246af4a height=87 version=0x20000000 log2_work=6.4594316 tx=88 date='2017-06-13 19:10:18' progress=1.000000 cache=0.0MiB(88tx)
+2017-06-13 19:10:12 UpdateTip: new best=88e860cf23f0cd6d16ac1168f4e9b49dbcd75bfc7325f1afe1bd21fb38c0d0af height=88 version=0x20000000 log2_work=6.4757334 tx=89 date='2017-06-13 19:10:18' progress=1.000000 cache=0.0MiB(89tx)
+2017-06-13 19:10:12 UpdateTip: new best=fb59ed1f9598f44fd9cd5eb1b36c17ff2a499a0ed7163b1f9379792e6484af34 height=89 version=0x20000000 log2_work=6.4918531 tx=90 date='2017-06-13 19:10:18' progress=1.000000 cache=0.0MiB(90tx)
+2017-06-13 19:10:12 UpdateTip: new best=092300637458033bbbfc0402dbc3434d3cb03d36f4c4ca3551d57dd2ac197c95 height=90 version=0x20000000 log2_work=6.5077946 tx=91 date='2017-06-13 19:10:18' progress=1.000000 cache=0.0MiB(91tx)
+2017-06-13 19:10:12 UpdateTip: new best=36881493bd85e55f8fef7401ed870e28ce289de0d20c2a69a9c698b4f9b25af5 height=91 version=0x20000000 log2_work=6.523562 tx=92 date='2017-06-13 19:10:18' progress=1.000000 cache=0.0MiB(92tx)
+2017-06-13 19:10:12 UpdateTip: new best=971692395a4a17d6b80007f16bf23abd3f7f26d6d6cab7d7f956c80d16af39a0 height=92 version=0x20000000 log2_work=6.5391588 tx=93 date='2017-06-13 19:10:19' progress=1.000000 cache=0.0MiB(93tx)
+2017-06-13 19:10:12 UpdateTip: new best=6df054d66b0027745cf8107d3b866e900af419d40bdcff7eab2c974075f7dd69 height=93 version=0x20000000 log2_work=6.5545889 tx=94 date='2017-06-13 19:10:19' progress=1.000000 cache=0.0MiB(94tx)
+2017-06-13 19:10:12 UpdateTip: new best=d1c2058a8cd61d1b4e67fede34390ce3e5c915f91c33c85615cb0e1b21937c07 height=94 version=0x20000000 log2_work=6.5698556 tx=95 date='2017-06-13 19:10:19' progress=1.000000 cache=0.0MiB(95tx)
+2017-06-13 19:10:12 UpdateTip: new best=002b0ed7fee57c3e2546250fb23b4ef1767d93cff745a3a98907c6aa88984fd6 height=95 version=0x20000000 log2_work=6.5849625 tx=96 date='2017-06-13 19:10:19' progress=1.000000 cache=0.0MiB(96tx)
+2017-06-13 19:10:12 UpdateTip: new best=4fd4d5f0ca3c8bb1c62fbfa42e48adf454d34f06758b34bb66503df98fd57816 height=96 version=0x20000000 log2_work=6.5999128 tx=97 date='2017-06-13 19:10:19' progress=1.000000 cache=0.0MiB(97tx)
+2017-06-13 19:10:12 UpdateTip: new best=396d7dcdb7ed95a2ded69db057757d7143e666293373053ad949d6f13caf8296 height=97 version=0x20000000 log2_work=6.6147098 tx=98 date='2017-06-13 19:10:19' progress=1.000000 cache=0.0MiB(98tx)
+2017-06-13 19:10:12 UpdateTip: new best=33e01d7cd30f890741587fd41d7d60b6e38f5ec7ff142f6abf9afa7b92c3486f height=98 version=0x20000000 log2_work=6.6293566 tx=99 date='2017-06-13 19:10:20' progress=1.000000 cache=0.0MiB(99tx)
+2017-06-13 19:10:12 UpdateTip: new best=e3a3cf803cd0f1e440abf4b6fb2c8af02da31e57e3430dd564a84c4315ea6d51 height=99 version=0x20000000 log2_work=6.6438562 tx=100 date='2017-06-13 19:10:20' progress=1.000000 cache=0.0MiB(100tx)
+2017-06-13 19:10:12 UpdateTip: new best=519a8d26c800d3bec0b8f94bf89a8ffa827f8e6c313a05af032147fd5d07a322 height=100 version=0x20000000 log2_work=6.6582115 tx=101 date='2017-06-13 19:10:20' progress=1.000000 cache=0.0MiB(101tx)
+2017-06-13 19:10:16 UpdateTip: new best=81a50ec350f22c8668304bee5b5830e5c480de6641931bbc41f7c9c683770f6b height=101 version=0x20000000 log2_work=6.6724253 tx=106 date='2017-06-13 19:10:20' progress=1.000000 cache=0.0MiB(106tx)
+2017-06-13 19:10:16 AddToWallet c9c51d8325d0131c127db7a6cc6286834756b55a66c73c4edf710998633599e4  new
+2017-06-13 19:10:16 AddToWallet 34a9cfccbe231a16477fc3cab0d2170f3e64cef863bd356856a421ffaf766973  new
+2017-06-13 19:10:34 UpdateTip: new best=b77da18c8e5fa99d10613f73d63d94fe9bdf80d559890697bc3020163caa8273 height=102 version=0x20000000 log2_work=6.6865005 tx=125 date='2017-06-13 19:10:31' progress=1.000000 cache=0.0MiB(125tx)
+2017-06-13 19:11:35 keypool added key 12, size=11
+2017-06-13 19:11:35 keypool reserve 2
+2017-06-13 19:11:35 keypool keep 2
+2017-06-13 19:11:59 AddToWallet 6b4dc4d8a84943a28e98b414088e0b26a6a14a0f34b4fcb32483b4d07f597323  new
+2017-06-13 19:12:02 UpdateTip: new best=25bc3f082aac4389b206bb1a49347a693d987d7bbce11a598c268cc897af4359 height=103 version=0x20000000 log2_work=6.7004397 tx=127 date='2017-06-13 19:12:02' progress=1.000000 cache=0.0MiB(124tx)
+2017-06-13 19:12:03 AddToWallet 6b4dc4d8a84943a28e98b414088e0b26a6a14a0f34b4fcb32483b4d07f597323  update
